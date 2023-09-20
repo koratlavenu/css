@@ -1,0 +1,53 @@
+.body{
+    padding: 0%;
+    margin: 0%;   
+    background-color: aqua;
+    font-family: sans-serif;
+
+}
+.container{
+    background: red;
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    border:solid salmon;
+}
+.container ul{
+    display: inline-flex;
+    list-style: none;
+}
+.container ul li{width: 260px;
+    margin: 5px;
+    padding: 15px;
+    position: sticky;
+    top: 0%;
+
+}
+.container ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+
+.p{
+    font-size: small;
+    font-weight: bold;
+    font-style: oblique;
+}
+.chatbox{
+    position:fixed;
+    bottom: 150px;
+    right: 10px;
+    width: 300px;
+    height: 270px;
+    border: 5px solid #deab07;
+    background-color: rgb(14, 241, 238);
+    border-radius: 10px;
+}
+.chat{
+    color: black;
+}
+.me{
+    text-align: right;
+}
